@@ -1,0 +1,44 @@
+
+/*.transit {
+    transition: left 1s, top 1s, right 1s, bottom 1s, width 1s, height 1s, transform 1s;
+    -moz-transition: left 1s, top 1s, right 1s, bottom 1s, width 1s, height 1s, -moz-transform 1s;
+    -webkit-transition: left 1s, top 1s, right 1s, bottom 1s, width 1s, height 1s, -webkit-transform 1s;
+    -o-transition: left 1s, top 1s, right 1s, bottom 1s, width 1s, height 1s,-o-transform 1s;
+}*/
+
+.hidden {
+    background-color: transparent;
+    border-color: 2px solid blue;
+}
+
+.boxCommon {
+    display: block;
+    position:absolute;
+
+}
+
+
+
+.thumbCommon {
+    z-index:2;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+
+body {
+
+    margin-left:0px;
+    margin-top:0px;
+}
+
+h1{
+    color:white;
+    font-family: helvetica;
+    text-align: center;
+    background: red;
+}
+
+header {
+    display: block;
+    padding: 20px;
+}
