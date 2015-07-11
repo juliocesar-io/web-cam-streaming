@@ -1,10 +1,8 @@
 {
-  "name"        : "easyrtc_server_example",
+  "name"        : "Web-cam-streaming",
   "version"     : "0.1.5",
-  "author"      : "Priologic Software Inc. <info@priologic.com> (http://priologic.com/)",
+  "author"      : "Julio Cesar",
   "description" : "Simple EasyRTC server example which includes EasyRTC, Express, and Socket.io",
-
-  "private"     : true,
 
   "scripts": {
     "start"     : "node server.js"
